@@ -1,8 +1,16 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
 a  {
     font-weight: bold;
     color:green;
 }
 
 .paraf{
+    width: 400px;
+	height: 400px;
     display: block;
 }
