@@ -2,3 +2,7 @@ a  {
     font-weight: bold;
     color:green;
 }
+
+.paraf{
+    display: block;
+}
