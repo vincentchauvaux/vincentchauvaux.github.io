@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+body{
+    font-family: 'BioRhyme', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Cabin', sans-serif;
+}
 a  {
     font-weight: bold;
     color:green;
@@ -12,12 +19,13 @@ a  {
 .paraf{
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 400px;
-	height: 400px;
     display: block;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 .bout {
     display: block;
     margin-top: 50px;
+    
 }
