@@ -10,37 +10,58 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <button id="monbtn">
-            cliquer ici pour voir la liste des filmes
-        </button>
+    <div class="container mx-auto bg-gray-900 min-w-max">
+        <div class="flex justify-center">
+            <div class="w-1/2">
+                <div class="paraf bg-yellow-400 shadow">
 
-        <ul id="listfilms">
+                    <button id="monbtna" class="rounded-full py-3 px-6 bg-gray-400">
+                        changer le paragraphe A
+                    </button>
+                    <p id="monparapha" class="font-sans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Laudantium aliquid provident inventore nobis molestias qui
+                        eos dolor alias necessitatibus nisi dolores debitis impedit,
+                        molestiae corporis illum deleniti facilis fuga voluptatum.
+                    </p>
 
-        </ul>
+                    <button id="monbtnb" class="rounded-full py-3 px-6 bg-gray-400">
+                        changer le paragraphe B
+                    </button>
+                    <p id="monparaphb" class="font-sans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Laudantium aliquid provident inventore nobis molestias qui
+                        eos dolor alias necessitatibus nisi dolores debitis impedit,
+                        molestiae corporis illum deleniti facilis fuga voluptatum.
+                    </p>
+
+                    <button id="monbtnc" class="rounded-full py-3 px-6 bg-gray-400">
+                        changer le paragraphe C
+                    </button>
+                    <p id="monparaphc" class="font-sans">
+                    </p>
+
+                    <button id="monbtnd" class="rounded-full py-3 px-6 bg-gray-400">
+                        cliquer ici pour voir la liste des filmes
+                    </button>
+                    <ul id="liste">
+                    </ul>
+
+                    <button id="monbtne" class="rounded-full py-3 px-6 bg-gray-400">
+                        cliquer ici pour voir les gens
+                    </button>
+                    <ul id="people">
+                    </ul>
+
+
+                    <a href="about.html">lien vers about</a>
+                </div>
+
+            </div>
+        </div>
     </div>
     
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script>
-    $(document).ready(function(){
-        
-        get(
-            curl https://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49
+<script src="script.js"></script>
+<script src="people.js"></script>
 
-		{
-			id: "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
-            title: "My Neighbor Totoro",
-            description: "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
-            director: "Hayao Miyazaki",
-            producer: "Hayao Miyazaki",
-            release_date: "1988",
-            rt_score: "93",
-		},
-
-
-	);
-    })
-</script>
 </html>

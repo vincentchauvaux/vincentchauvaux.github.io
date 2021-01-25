@@ -19,13 +19,11 @@ a  {
 .paraf{
     margin-top: 50px;
     margin-bottom: 50px;
-    display: block;
     border-radius: 5px;
     padding: 30px;
 }
 
-.bout {
-    display: block;
-    margin-top: 50px;
-    
+
+button {
+    margin-top: 20px;
 }
