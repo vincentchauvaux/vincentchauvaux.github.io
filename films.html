@@ -44,7 +44,13 @@
                     </button>
                     <ul id="liste">
                     </ul>
+                    <div x-data="{films:[]}"
+                        x-init="fetch('https://ghibliapi.herokuapp.com/people')
+                        .then(reponse => reponse.json())
+                        .then(data => gens = data)" >
 
+                        
+                    </div>
                     <button id="monbtne" class="rounded-full py-3 px-6 bg-gray-400">
                         cliquer ici pour voir les gens
                     </button>
@@ -62,6 +68,6 @@
 </body>
 
 <script src="script.js"></script>
-<script src="people.js"></script>
+
 
 </html>
